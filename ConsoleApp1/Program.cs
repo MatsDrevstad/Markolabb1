@@ -42,7 +42,7 @@ namespace ConsoleApp1
             }
 
             // om några specialtecken finns i text så är den antingen svensk eller dansk
-            if (swedishSum > 0 || danishSum > 0)
+            if (swedishSum + danishSum != 0)
             {
                 //om svenska tecken är fler eller lika är den svensk
                 if (swedishSum > danishSum || swedishSum == danishSum)
