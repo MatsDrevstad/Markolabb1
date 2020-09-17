@@ -50,6 +50,11 @@ namespace ConsoleApp1
                 else
                     Console.WriteLine("Texten är på danska.");
             }
+            else
+            {
+                Console.WriteLine("Det går inte att avgöra om texten är på svenska eller danska");
+            }
+
             Console.WriteLine("Antal svenska tecken är: " + swedishSum);
             Console.WriteLine("Antal danska tecken är: " + danishSum);
 
